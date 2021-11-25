@@ -288,3 +288,53 @@ body{
         display: none;
     }
 }
+@media screen and (max-width: 580px){
+    .login-box{
+        width: 439px;
+        height: 641px;
+        .flex__item_1{
+            h1{
+                font-size: 45px !important;
+                line-height: 65px !important;
+            }
+        }
+        .google{
+            img{
+                margin-right: 5px;
+                width: 21px;
+                height: 21px;
+            }
+            width: 166px !important;
+            font-size: 14px !important;
+        }
+        .form__inputBlock{
+            margin-top: 20px !important;
+        }
+    }
+
+}
+@media screen and (max-width: 460px){
+    .login-box{
+        width: 364px;
+        height: 770px;
+        .social__account_icon{
+            flex-direction: column;
+            .google{
+                width: 200px !important;
+                font-size: 16px !important;
+                line-height: 24px !important;
+                margin-bottom: 10px;
+            }
+            .meta{
+                margin-bottom: 10px !important;
+            }
+        }
+        .form__inputBlock{
+            margin-top: 20px !important;
+        }
+        .submit{
+            margin-top: 10px !important;
+        }
+    }
+
+}

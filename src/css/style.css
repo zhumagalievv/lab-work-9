@@ -249,5 +249,38 @@ body {
 
   .login-block, .header-block {
     display: none; } }
+@media screen and (max-width: 580px) {
+  .login-box {
+    width: 439px;
+    height: 641px; }
+    .login-box .flex__item_1 h1 {
+      font-size: 45px !important;
+      line-height: 65px !important; }
+    .login-box .google {
+      width: 166px !important;
+      font-size: 14px !important; }
+      .login-box .google img {
+        margin-right: 5px;
+        width: 21px;
+        height: 21px; }
+    .login-box .form__inputBlock {
+      margin-top: 20px !important; } }
+@media screen and (max-width: 460px) {
+  .login-box {
+    width: 364px;
+    height: 770px; }
+    .login-box .social__account_icon {
+      flex-direction: column; }
+      .login-box .social__account_icon .google {
+        width: 200px !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        margin-bottom: 10px; }
+      .login-box .social__account_icon .meta {
+        margin-bottom: 10px !important; }
+    .login-box .form__inputBlock {
+      margin-top: 20px !important; }
+    .login-box .submit {
+      margin-top: 10px !important; } }
 
 /*# sourceMappingURL=style.css.map */

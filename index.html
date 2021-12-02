@@ -8,12 +8,12 @@
     <title>Hi</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div id='wrapper' class="wrapper">
         <div class="wrapper__block">
             <div class="__limit_cont">
                 <div class="header-block">
                     <div class="logo">
-                        <h2>Your Logo</h2>
+                        <h3 class="animate-charcter">Your Reflection</h3>
                     </div>
                     <div class="content-block">
                         <div class="block-text">
@@ -74,11 +74,11 @@
                 <form action="#" id='LoginForm'>
                     <div class="form__inputBlock">
                         <label for="">Enter your username or email address</label>
-                        <input type="email" placeholder='Username or email address' class='form-input' name='useremail' required>
+                        <input type="email" placeholder='Username or email address' class='form-input required' name='useremail'>
                     </div>
                     <div class="form__inputBlock">
                         <label for="">Enter your Password</label>
-                        <input type="password" placeholder="Password" class='form-input' name='password' required>
+                        <input type="password" placeholder="Password" class='form-input required' name='password'>
                         <a href="#">Forgot Password</a>
                     </div>
                     <div class="form__inputBlock">
@@ -88,8 +88,16 @@
             </div>
         </div>
     </div>
+    <div id='showbox' class="showbox">
+        <div class="loader">
+          <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+          </svg>
+        </div>
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js'></script>
     <script src='src/script/valid.js'></script>
+    <script src='js/index.js'></script>
 </body>
 </html>
